@@ -91,7 +91,7 @@ class AdminModelProfile extends UsersModelUser
 		}
 
 		// Load the users plugins.
-		JPluginHelper::importPlugin('user');
+		// JPluginHelper::importPlugin('user');
 
 		$this->preprocessData('com_admin.profile', $data);
 
